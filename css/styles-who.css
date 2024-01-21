@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Alexandria', sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #e50914;
+    --dark-color: #141414;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    -webkit-font-smoothing: antialiased; /*ATENCION*/
+    background: #000;
+    color: #999;
+}
+
+ul{
+    list-style: none;
+}
+
+h1, h2, h3, h4 {
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+p{
+    margin: 0.5rem 0;
+}
+
+img{
+    width: 100%;
+}
+
+.list-profiles-container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.choose-profile{
+    display: flex;
+    position: relative;
+    width: 65%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.list-profiles h1{
+    margin-bottom: 2rem;
+    font-size: 3.5rem;
+}
+
+.profile{
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.profile-name{
+    color: #999;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.profile img{
+    max-width: 75%;
+    border-radius: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.profile-link svg{
+    margin-bottom: 0.2rem;
+}
+
